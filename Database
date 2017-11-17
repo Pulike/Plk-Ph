@@ -68,7 +68,7 @@ public class Database01 {
 		// trabalho 1 exercicio alterar
     
     
-		public void atualizar() throws SQLException{
+		
        
         Connection conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/cadastro", usuario, senha);
         String sql = "update contato set nome = ?, id = ?, cpf = ?";
@@ -83,7 +83,6 @@ public class Database01 {
 		// trabalho 2 exercicio deletar 
     
     
-        public void deletar() throws SQLException{
         
         Connection conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/cadastro", usuario, senha);
         String sql = "delete from contato where id = ?";
