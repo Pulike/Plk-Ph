@@ -65,7 +65,7 @@ public class Database01 {
         }
 		
     
-		// trabalho 1 exercicio alteirar
+		// trabalho 1 exercicio alterar
     
     
 		public void atualizar() throws SQLException{
